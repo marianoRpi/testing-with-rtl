@@ -1,13 +1,18 @@
 :root {
-	--fg: hsl(250, 10%, 35%);
-	--bg: hsl(250, 10%, 15%);
+	--fg: hsl(200, 10%, 45%);
+	--bg: hsl(200, 10%, 20%);
+	--shadow: hsl(200, 0%, 0%);
 }
 
 .App {
 	background-color: var(--bg);
 	color: var(--fg);
 	min-height: 100vh;
+}
+
+section {
 	text-align: center;
+	padding: 20px;
 }
 
 h1 {
